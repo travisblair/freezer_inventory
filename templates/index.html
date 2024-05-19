@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freezer Inventory</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h1>Freezer Inventory</h1>
+    <div id="inventory-list"></div>
+    <h2>Add Item</h2>
+    <div id="add-item">
+        <input type="text" id="new-name" placeholder="Name" required>
+        <input type="number" id="new-quantity" placeholder="Quantity" required>
+        <select id="new-section" required>
+            <option value="">Select Section</option>
+            <option value="shelf 1">Shelf 1</option>
+            <option value="shelf 2">Shelf 2</option>
+            <option value="shelf 3">Shelf 3</option>
+            <option value="shelf 4">Shelf 4</option>
+            <option value="bottom basket">Bottom Basket</option>
+            <option value="door">Door</option>
+        </select>
+        <button id="add-button">Add Item</button>
+    </div>
+    <script src="/static/script.js"></script>
+</body>
+</html>
